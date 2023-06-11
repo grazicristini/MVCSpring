@@ -18,7 +18,7 @@
                     <th>Descrição</th>
                     <th>&nbsp;</th>
                 </tr>
-                <c:forEach>
+                <c:forEach var="item" items="&{produtos}">
                     <tr>
                         <td>${item.id}</td>
                         <td>${item.titulo}</td>

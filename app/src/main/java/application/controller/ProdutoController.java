@@ -11,6 +11,7 @@ import application.model.ProdutoRepository;
 @Controller
 @RequestMapping("/produto")
 public class ProdutoController {
+    
     @Autowired
     private ProdutoRepository produtoRepo;
 
